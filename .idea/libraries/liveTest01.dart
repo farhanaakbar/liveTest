@@ -35,7 +35,7 @@ void main() {
     }
   }
 
-  // Step 3: Create final result map
+ 
   Map<String, double> result = {};
   for (int i = 0; i < avgList.length; i++) {
     result[avgList[i]["name"]] = avgList[i]["avg"];
